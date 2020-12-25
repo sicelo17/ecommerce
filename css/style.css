@@ -384,7 +384,8 @@ Hero Area
 }
 
 .hero-left p,
-.hero-left span {
+.hero-left span,
+.collection-data span {
     margin-bottom: 1rem;
     font-size: 2rem;
 }
@@ -433,5 +434,60 @@ Hero Area Media Query
 /* 
 =======================
 Collection
+=======================
+*/
+
+.section {
+    padding: 3rem 0;
+}
+
+.collection {
+    margin: 3rem 0;
+}
+
+.collection-container {
+    width: 100%;
+    padding: 0 1.6rem;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collection-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    flex: 0 0 48%;
+    height: 50rem;
+    background-color: var(--primary);
+}
+
+.collection-box:not(:last-child) {
+    margin-right: 1.6rem;
+}
+
+.img-container {
+    width: 50rem;
+    text-align: center;
+}
+
+.collection-box img.collection-01 {
+    width: 70%;
+}
+
+.collection-box img.collection-02 {
+    width: 60%;
+}
+.collection-data h1{ 
+    font-size: 3rem;
+}
+
+
+
+/* 
+=======================
+Collection Media Query
 =======================
 */
